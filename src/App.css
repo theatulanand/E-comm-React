@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+thead{
+  background-color: #61dafb;
+  font-size: 25px;
+}
+tbody{
+  font-size: 18px;
+}
+#table{
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  height: 550px;
+  overflow-y: scroll;
+}
+#table::-webkit-scrollbar {
+  display: none;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+th{
+  position: sticky;
+  top: 0;
+  background-color: #61dafb;
+}
+td{
+  padding: 5px;
+}
+
+#box{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#box h2{
+  color: black;
+}
+
+#box p{
+  text-align: justify;
+}
